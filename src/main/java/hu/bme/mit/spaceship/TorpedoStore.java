@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // factored out to class level as this is reusable
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
